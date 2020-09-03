@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Pieter Buur
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,20 +56,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** rode piste
+**Je startniveau:** -blauw-
 
-**Je focus:** responsive
+**Je focus:** -responsive-
 
-**Je opdracht:** https://www.volkskrant.nl/
+**Je opdracht:** -[De website:](https://www.volkskrant.nl/)-
 
 **Screenshot(s):**
 
-(images/dummy-image.svg)
-images/screenshot_volkskrant.png
-images/screenshot_footer_volkskrant.png
+![alt text](images/screenshot_volkskrant.png "Screenshot homepage")
+![alt text](images/screenshot_footer_volkskrant.png "Screenshot footer")
+
 
 **Breakdown-schets(en):**
 
-(images/dummy-image.svg)
-images/breakdown_homepage_volkskrant
-images/breakdown_artikel_volkskrant
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
+![alt text](images/breakdown_volkskrant_homepage.png "Homepage breakdown)
+![alt text](images/breakdown_volkskrant_artikel.png "Artikel breakdown")
+
+
