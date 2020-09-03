@@ -71,7 +71,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
-![alt text](images/breakdown_volkskrant_homepage.png "Homepage breakdown)
+![alt text](images/breakdown_volkskrant_homepage.png "Homepage breakdown")
 ![alt text](images/breakdown_volkskrant_artikel.png "Artikel breakdown")
 
 
