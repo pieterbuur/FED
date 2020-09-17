@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Pieter Buur-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -44,9 +44,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van hoe ver je bent-
 
+![alt text](images/screenshot_head.jpeg "Screenshot head")
+![alt text](images/screenshot_main.jpeg "Screenshot main")
+![alt text](images/screenshot_main2.jpeg "Screenshot main2")
+![alt text](images/screenshot_footer.jpeg "Screenshot footer")
+
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+18 september groep B2, 9.25. Vanwege drukte met het hele groepje besloten de dag van de feedbackgesprekken zelf te doen.
 
 ### Verslag van meeting
 
