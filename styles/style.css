@@ -5,123 +5,93 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Capitolium";
+  src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
+  src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+  src: url("../fonts/BentonSans/BentonSans Medium.otf")
+}
+
+
 body {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0.5em;
+    margin-right: 0.1em;
     width: 100vw;
+    font-family: Capitolium;
+}
+
+header nav  {
+    overflow-x: auto; 
+    overflow-y: hidden;
+    top: 0;
+    height: 50px;
+    background-color: ghostwhite;
+    position: sticky;
+   
+    
 
 }
 
-.titel {}
-
-nav {
-
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 55px;
-    background-color: #333;
+header nav ul {
    display: flex;
- 
-
-    background: #f1f1f1;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-
-
-
-    font-size: 20px;
-
-
-}
-
-nav ul {
-
-
-    display: flex;
-}
-
-
-    
+   font-family: 'Merriweather';
+   max-width: 350%;
+   width: 350%;
+   height: 100%;
+   list-style: none;
+   background-color: white;
+   justify-content: space-around;
     
 }
 
-nav ul li:hover {
-    color: white;
-    text-decoration-line: underline;
+header section img { 
+width: 100%;
 }
 
-nav a {
-    color: darkgrey;
+
+main section article img {
+  width: 60px;
 }
 
-nav a:hover {
-    color: black;
-    text-decoration: none;
-}
 
-header > a {
-    font-size: 65px;
-    display: block;
-    margin-bottom: 20px;
-    border-bottom: 0.5px solid black;
-    text-decoration: none;
-    font-family: monospace;
-    color: black;
-}
 
 img {
     margin-top: 20px;
     border-bottom: 0.5px solid black;
 }
 
-.container {
-    float: left;
-}
-
-.child {
-    width: 50px;
-
-}
-
-.parent {
-
-    overflow: hidden;
-}
-
-.child-one {
-    position: sticky;
-    top: 0;
-}
-
 h1 {
-    padding-top: 10px;
-    border-top: 5px solid blue;
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
     font-size: 35px;
 }
 
-section {
-    width: 600px;
-    border-right: 1px solid gainsboro;
+figcaption {
+    font-size: 20px;
+    width: 80vw;
 }
 
-figcaption {
-    border-bottom: 1px solid black;
-    position: relative;
+p {
     font-size: 20px;
     width: 60vw;
-    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+   
 }
 
 footer {
     list-style-type: none;
-    margin-left: 20px;
-    margin-right: 20px;
     width: 100vw;
     padding-top: 2em;
+    border-top: 60px solid #DCDCDC;
+    padding-bottom: 2em;
+}
 
-
+footer ul li {
+    list-style-type: none;
+    text-align: left;
+    
 }
 
 .bold {
@@ -132,36 +102,12 @@ footer {
 
 .nieuws {
     width: 100vw;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.rusland {
-    margin-top: 10px;
-    border-top: 1px solid black;
-    width: 100vw;
-}
 
-.rusland-caption {
-    font-size: 20px;
-    padding-top: 10px;
-    width: 70vw;
-    border: none;
-}
 
-li a {
-    text-decoration: none;
-    padding: 100px;
-    line-height: 1.4;
-    text-align: left;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
 
 .voetbal {
     border-top: 10px solid grey;
@@ -173,6 +119,77 @@ ul {
     width: 100vw;
 }
 
-.geen {
-    border: none;
+figure {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border-bottom: 3px solid #eaeaea;
+    
+}
+
+body main section img {
+    margin-bottom: 10px
+}
+
+.artikelen {
+    padding-top: 30px;
+    border-top: 2em solid #F0F0F0;
+    width: 100vw;
+    
+}
+
+figcaption {
+    margin-bottom: 10px;
+}
+
+.nieuws2 {
+    font-family: "CapitoliumHead";
+    width: 100vw;
+    font-size: 22px;
+    margin-bottom: 30px;
+    
+}
+
+p {
+    margin: 0em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: .2em;
+    margin-right: .2em;
+    font-size: 1.8em;
+    font-family: "BentonSans";
+}
+
+.nietbold {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.martelkamer {
+    width: 100vw;
+    margin-right: 20px;
+}
+
+main aside nav {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+main aside nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-family: 'Benton-Light';
+    font-size: 14px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
 }

@@ -3,6 +3,8 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
+Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00NzE3MzIyNQ==
+
 
 
 ## Bronnenlijst
@@ -30,8 +32,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
 
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent-
+
+![alt text](images/screenshot_head2.jpeg "Screenshot head 2)
+![alt text](images/screenshot_main2.jpeg "Screenshot main 2)
+![alt text](images/screenshot_main_deel2.jpeg "Screenshot head deel 2)
+![alt text](images/screenshot_footer2.jpeg "Screenshot footer 2)
+
+### Agenda voor meeting
+
+
+### Verslag van meeting
 
 
 ## Voortgang 1 (week 3)
@@ -55,7 +70,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Het feedbackgesprek ging goed, alleen er waren wel een paar punten van verbetering:
+
+- Werk je icoontjes uit door de svg te kopiëren van volkskrant.nl
+- Gebruik <strong> en <em> voor tekst
+- Gebruik figures ipv img src voor de artikelen.
+    
+Het eerste waar ik nu mee aan de slag ga is de homepage verder stylen.
 
 
 
