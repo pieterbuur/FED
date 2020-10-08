@@ -26,8 +26,24 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+-dit ging goed & dit was lastig-
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent-
+
+![alt text](images/screenshot_head.jpeg "Screenshot head")
+![alt text](images/screenshot_main.jpeg "Screenshot main")
+![alt text](images/screenshot_main2.jpeg "Screenshot main2")
+![alt text](images/screenshot_footer.jpeg "Screenshot footer")
+
+### Agenda voor meeting
+
+Hebben niet met het groepje afgesproken, omdat er geen tijd voor was.
+
+### Verslag van meeting
 
 
 ## Voortgang 2 (week 5)
@@ -50,6 +66,7 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 
 
 ## Voortgang 1 (week 3)
+
 
 ### Stand van zaken
 

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Capitolium";
+  src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
+  src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+  src: url("../fonts/BentonSans/BentonSans Medium.otf")
+}
+
+ul {
+    padding: 0;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    font-family: Capitolium;
+}
+
+header h1 {
+    position: sticky;
+    top: 0;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+header section img { 
+width: 100%;
+}
+
+main section article img {
+  width: 60px;
+}
+
+p {
+    font-size: 20px;
+    width: 60vw;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main img {
+    margin-right: 1em;
+   
+}
+
+footer {
+    list-style-type: none;
+    width: 100vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 16px;
+}
+
+figure {
+    display: flex;
+    align-items:center;
+    padding: 0;
+    
+}
+
+
+main aside nav {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+main aside nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-family: 'Benton-Light';
+    font-size: 14px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+}
+
+main aside nav ul li a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 16px; 
+}
+
+article figcaption {
+    margin-left: 0;
+    width: 100vw;
+    font-size: 22px;
+}
+
+
+strong {
+    padding-bottom: 2em;
+}
+
+
+
+main figure ul li  {
+    list-style-type: none;
+    width: 70vw;
+    
+}
+
+.titel {
+    font-size: 1.4em;
+    color: #9B9B9B;
+    padding-bottom: 0.2em;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+
+

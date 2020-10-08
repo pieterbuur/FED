@@ -12,24 +12,29 @@
   src: url("../fonts/BentonSans/BentonSans Medium.otf")
 }
 
-
-body {
-    margin-left: 0.5em;
-    margin-right: 0.1em;
-    width: 100vw;
-    font-family: Capitolium;
+ul {
+    padding: 0;
 }
 
+figure {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    font-family: Capitolium;
+    margin-right: 1em;
+}
+
+main header ul li {
+    justify-content: space-between;
+}
+    
 header nav  {
     overflow-x: auto; 
     overflow-y: hidden;
     top: 0;
     height: 50px;
-    background-color: ghostwhite;
-    position: sticky;
-   
-    
-
 }
 
 header nav ul {
@@ -41,7 +46,11 @@ header nav ul {
    list-style: none;
    background-color: white;
    justify-content: space-around;
-    
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration-line: none;
 }
 
 header section img { 
@@ -53,10 +62,15 @@ main section article img {
   width: 60px;
 }
 
+header nav .active {
+    padding-bottom: 8px;
+    border-bottom: 4px solid #000;
+}
+
 
 
 img {
-    margin-top: 20px;
+   
     border-bottom: 0.5px solid black;
 }
 
@@ -64,11 +78,18 @@ h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
     font-size: 35px;
+    margin-bottom: 1em;
+}
+
+h2 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
 }
 
 figcaption {
     font-size: 20px;
-    width: 80vw;
+    width: 100vw;
 }
 
 p {
@@ -84,14 +105,12 @@ footer {
     list-style-type: none;
     width: 100vw;
     padding-top: 2em;
-    border-top: 60px solid #DCDCDC;
     padding-bottom: 2em;
 }
 
-footer ul li {
-    list-style-type: none;
-    text-align: left;
-    
+footer a {
+    text-decoration-line: none;
+    color: black;
 }
 
 .bold {
@@ -110,12 +129,10 @@ footer ul li {
 
 
 .voetbal {
-    border-top: 10px solid grey;
     width: 100vw;
 }
 
 .politiek {
-    border-top: 10px solid grey;
     width: 100vw;
 }
 
@@ -123,23 +140,18 @@ figure {
     display: flex;
     justify-content: space-around;
     align-items:center;
-    border-bottom: 3px solid #eaeaea;
-    
-}
-
-body main section img {
-    margin-bottom: 10px
 }
 
 .artikelen {
-    padding-top: 30px;
-    border-top: 2em solid #F0F0F0;
     width: 100vw;
-    
+}
+
+.hoogte-img {
+    width: 100vw;
 }
 
 figcaption {
-    margin-bottom: 10px;
+   margin-left: 1em;
 }
 
 .nieuws2 {
@@ -153,11 +165,8 @@ figcaption {
 p {
     margin: 0em;
     font-weight: 900;
-    text-transform: uppercase;
     margin-left: .2em;
     margin-right: .2em;
-    font-size: 1.8em;
-    font-family: "BentonSans";
 }
 
 .nietbold {
@@ -193,3 +202,37 @@ main aside nav ul  {
     text-decoration: none;
     border-top: 1px solid black;
 }
+
+main aside nav ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+article figcaption {
+    margin-left: 0;
+    width: 100vw;
+    font-size: 22px;
+}
+
+article p {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    font-size: 20px;
+    padding-bottom: 1em;
+    font-weight:700;
+    padding-top: 0.3em;
+}
+
+section article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section article p {
+    margin-top: 0;
+    font-size: 25px;
+    
+}
+
+
