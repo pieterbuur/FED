@@ -12,6 +12,19 @@
   src: url("../fonts/BentonSans/BentonSans Medium.otf")
 }
 
+/*@media (min-width: 600px) {
+img {width: 20vw;}
+
+figure figcaption {
+font-size:30px;}
+
+section article p {
+font-size:30px;}
+
+footer {
+font-size: 30px;}
+*/
+
 ul {
     padding: 0;
 }
