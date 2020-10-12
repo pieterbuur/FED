@@ -5,6 +5,27 @@
   src: url("../fonts/BentonSans/BentonSans Medium.otf")
 }
 
+@font-face {
+  font-family: "Capitolium";
+  src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
+  src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+}
+
+@font-face {
+    font-family: "BentonSans";
+    src: url("/fonts/BentonSans-Medium.otf")
+}
+
+@font-face {
+    font-family: "BentonBold";
+    src: url("/fonts/BentonSans-Bold.otf")
+}
+
+@font-face {
+    font-family: "BentonThin";
+    src: url("/fonts/")
+}
+
 ul {
     padding: 0;
 }
@@ -18,11 +39,17 @@ body {
     font-family: Capitolium;
 }
 
-header h1 {
+header {
     position: sticky;
     top: 0;
-    font-size: 22px;
-    font-family: sans-serif;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Capitolium;
+    color: black;
+    margin-bottom: 0;
+    height: 80%;
 }
 
 header section img { 
@@ -31,6 +58,16 @@ width: 100%;
 
 main section article img {
   width: 60px;
+}
+
+figure p {
+    font-family: "BentonSans-Thin";
+    display: flex;
+}
+
+strong {
+    font-family: "BentonSans-Bold";
+    margin-right: 0.5em;
 }
 
 p {
@@ -42,13 +79,15 @@ p {
 
 main img {
     margin-right: 1em;
+    height: 80px;
+    width: 80px;
    
 }
 
 footer {
     list-style-type: none;
     width: 100vw;
-    padding-top: 2em;
+    padding-top: 0.5em;
     padding-bottom: 2em;
 }
 
@@ -102,13 +141,6 @@ article figcaption {
     font-size: 22px;
 }
 
-
-strong {
-    padding-bottom: 2em;
-}
-
-
-
 main figure ul li  {
     list-style-type: none;
     width: 70vw;
@@ -116,15 +148,61 @@ main figure ul li  {
 }
 
 .titel {
-    font-size: 1.4em;
+    font-family: BentonSans-Bold;
+    margin-bottom: 0.3em;
+    font-size: 16px;
     color: #9B9B9B;
-    padding-bottom: 0.2em;
 }
 
 li {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Capitolium;
 }
 
+figure figcaption {
+    font-size: 19px;
+    margin-top: 0;
+}
+
+figure ul {
+    font-family: BentonSans-Bold;
+    margin-bottom: 0.3em;
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+figure ul li {
+   color: black;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+}
+
+@media (min-width: 600px) {
+    .bestgelezen {
+        max-width: 710px;
+    }
+    
+        footer {
+        display: flex;
+        font-size: 19px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style-type: none;
+        
+    }
+    
+        footer ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+    }
+}
 
 
 

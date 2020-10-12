@@ -9,22 +9,22 @@
   font-family: "Capitolium";
   src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
   src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
-  src: url("../fonts/BentonSans/BentonSans Medium.otf")
 }
 
-/*@media (min-width: 600px) {
-img {width: 20vw;}
+@font-face {
+    font-family: "BentonSans";
+    src: url("/fonts/BentonSans-Medium.otf")
+}
 
-figure figcaption {
-font-size:30px;}
+@font-face {
+    font-family: "BentonBold";
+    src: url("/fonts/BentonSans-Bold.otf")
+}
 
-section article p {
-font-size:30px;}
-
-footer {
-font-size: 30px;}
-*/
-
+@font-face {
+    font-family: "BentonThin";
+    src: url("/fonts/")
+}
 ul {
     padding: 0;
 }
@@ -34,9 +34,10 @@ figure {
     margin: 0;
 }
 body {
-    width: 100vw;
+    
     font-family: Capitolium;
     margin-right: 1em;
+    margin-left: 1em;
 }
 
 main header ul li {
@@ -58,7 +59,7 @@ header nav ul {
    height: 100%;
    list-style: none;
    background-color: white;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 header nav ul li a {
@@ -68,6 +69,7 @@ header nav ul li a {
 
 header section img { 
 width: 100%;
+margin-top: 0.75em;
 }
 
 
@@ -91,23 +93,23 @@ h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
     font-size: 35px;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
     font-size: 35px;
+    margin-bottom: 0.5em;
 }
 
 figcaption {
     font-size: 20px;
-    width: 100vw;
+    width: 92vw;
 }
 
 p {
     font-size: 20px;
-    width: 60vw;
     font-weight: bold;
     margin-bottom: 0.5em;
     font-size: 1.5em;
@@ -116,14 +118,16 @@ p {
 
 footer {
     list-style-type: none;
-    width: 100vw;
+    width: 92vw;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-footer a {
+footer ul li a {
     text-decoration-line: none;
     color: black;
+    list-style-type: none;
+    list-style: none;
 }
 
 .bold {
@@ -133,20 +137,15 @@ footer a {
 }
 
 .nieuws {
-    width: 100vw;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 94vw;
 }
 
-
-
-
 .voetbal {
-    width: 100vw;
+    width: 92vw;
 }
 
 .politiek {
-    width: 100vw;
+    width: 92vw;
 }
 
 figure {
@@ -156,11 +155,12 @@ figure {
 }
 
 .artikelen {
-    width: 100vw;
+    width: 94vw;
+    
 }
 
 .hoogte-img {
-    width: 100vw;
+    width: 94vw;
 }
 
 figcaption {
@@ -169,7 +169,7 @@ figcaption {
 
 .nieuws2 {
     font-family: "CapitoliumHead";
-    width: 100vw;
+    width: 94vw;
     font-size: 22px;
     margin-bottom: 30px;
     
@@ -187,9 +187,9 @@ p {
     margin-bottom: 1em;
 }
 
+
 .martelkamer {
-    width: 100vw;
-    margin-right: 20px;
+    width: 94vw;
 }
 
 main aside nav {
@@ -199,21 +199,27 @@ main aside nav {
   align-items: center;
   position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 94vw;
 }
 
 main aside nav ul  {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'Benton-Light';
-    font-size: 14px;
+    font-size: 16px;
     height: 100%;
     background-color: white;
     color: black;
     padding-top: 0.5em;
     text-decoration: none;
     border-top: 1px solid black;
+    width: 100vw;
+    margin-left: 0;
+}
+
+article p strong {
+    margin-right: 20px;
 }
 
 main aside nav ul li a {
@@ -223,18 +229,18 @@ main aside nav ul li a {
 
 article figcaption {
     margin-left: 0;
-    width: 100vw;
-    font-size: 22px;
+    width: 92vw;
+    font-size: 24px;
 }
 
 article p {
     display: flex;
-    justify-content: space-between;
     margin-left: 0;
-    font-size: 20px;
-    padding-bottom: 1em;
+    font-size: 12px;
+    padding-bottom: 0.7em;
     font-weight:700;
     padding-top: 0.3em;
+    font-family: "BentonSans-Thin";
 }
 
 section article {
@@ -244,8 +250,125 @@ section article {
 
 section article p {
     margin-top: 0;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
+strong {
+    font-family: "BentonSans-Bold";
+}
+
+@media (min-width: 600px) {
+    
+    body {
+        width: 100vw;
+        margin: 10px;
+    }
+    
+    img {
+        width: 20vw;
+    }
+
+    figure figcaption {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+    
+    img {
+        max-width: 400px;
+    }
+    
+    .nieuws {
+        position: absolute;
+        right: 0;
+        left: 400px;
+        top: 0;
+        margin: 20px;
+        margin-left: 2.5em;
+        width: 50vw;
+        max-width: 400px;
+        margin-top: 2.5em;
+        margin-right: 1em;
+    }
+    
+    .netbinnen {
+        left: 0;
+        top: 100px;
+    }
+    
+    figure figcaption {
+        margin: 3px;
+    }
+    
+    section figure img {
+        width: 75px;
+        margin-right: 10px;
+    }
+    
+    footer {
+        display: flex;
+        font-size: 19px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style-type: none;
+        
+    }
+    
+    footer ul li {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        list-style: none;
+        margin-right: 10px;
+    }
+    
+    section article h3 {
+        padding: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        font-family: BentonSans;
+    }
+    
+    section article figcaption {
+        max-width: 400px;
+        margin-bottom: 1em;
+        
+    }
+    
+    section article img {
+        max-width: 400px;
+    }
+    
+    section article {
+        max-width: 400px;
+    }
+    
+    .netbinnen {
+        max-width: 400px;
+        margin-top: 50px;
+    }
+    
+    section article {
+        margin-bottom: 0;
+    }
+    
+    section article p {
+        font-size: 18px;
+    }
+    
+    article figcaption {
+        font-size: 22px;
+    }
+    
+    .boldrechts {
+        margin-right: 10px;
+    }
+    
+    
+   
+    
 
