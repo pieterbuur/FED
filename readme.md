@@ -37,10 +37,10 @@ Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel
 
 -screenshot(s) van hoe ver je bent-
 
-![alt text](images/screenshot_head3.jpeg "Screenshot head")
-![alt text](images/screenshot_main3.jpeg "Screenshot main")
-![alt text](images/screenshot_main2v2.jpeg "Screenshot main2")
-![alt text](images/screenshot_footer3.jpeg "Screenshot footer")
+![alt text](images/screenshot_headdd.jpeg "Screenshot head")
+![alt text](images/screenshot_mainnn.jpeg "Screenshot main")
+![alt text](images/screenshot_mainnn_deel2.jpeg "Screenshot main2")
+![alt text](images/screenshot_footerrr.jpeg "Screenshot footer")
 
 ### Agenda voor meeting
 
@@ -58,10 +58,10 @@ Bij dit voortgangsgesprek was ik nog niet zo ver met mijn 2e pagina. En had ik m
 
 -screenshot(s) van hoe ver je bent-
 
-![alt text](images/screenshot_head2.jpeg "Screenshot head 2)
-![alt text](images/screenshot_main2.jpeg "Screenshot main 2)
-![alt text](images/screenshot_main_deel2.jpeg "Screenshot head deel 2)
-![alt text](images/screenshot_footer2.jpeg "Screenshot footer 2)
+![alt text](images/screenshot_headd.jpeg "Screenshot head 2)
+![alt text](images/screenshot_mainn.jpeg "Screenshot main 2)
+![alt text](images/screenshot_mainn_deel2.jpeg "Screenshot head deel 2)
+![alt text](images/screenshot_footerr.jpeg "Screenshot footer 2)
 
 ### Agenda voor meeting
 Deze week hebben we geen voortgangsgesprekken gehouden, vanwege drukte.
