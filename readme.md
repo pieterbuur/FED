@@ -31,7 +31,7 @@ Tot mijn verbazing is het mij aardig gelukt de feedback van vorige voortgangsges
 
 ### Stand van zaken
 
-Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel zou moeten. Daarnaast had ik ook nog niet alle <p> onder mijn images gestyles. Met deze 2 punten in het achterhoofd ben ik verdergegaan.
+Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel zou moeten. Daarnaast had ik ook nog niet alle <p> onder mijn images gestyles. Ook heb ik nog geen animatie. Met deze 3 punten in het achterhoofd ben ik verdergegaan.
 
 **Screenshot(s):**
 
