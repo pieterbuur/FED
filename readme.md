@@ -58,10 +58,10 @@ Bij dit voortgangsgesprek was ik nog niet zo ver met mijn 2e pagina. En had ik m
 
 -screenshot(s) van hoe ver je bent-
 
-![alt text](images/screenshot_headd.jpeg "Screenshot head 2)
-![alt text](images/screenshot_mainn.jpeg "Screenshot main 2)
-![alt text](images/screenshot_mainn_deel2.jpeg "Screenshot head deel 2)
-![alt text](images/screenshot_footerr.jpeg "Screenshot footer 2)
+![alt text](images/screenshot_headd.jpeg "Screenshot head 2")
+![alt text](images/screenshot_mainn.jpeg "Screenshot main 2")
+![alt text](images/screenshot_mainn_deel2.jpeg "Screenshot head deel 2")
+![alt text](images/screenshot_footerr.jpeg "Screenshot footer 2")
 
 ### Agenda voor meeting
 Deze week hebben we geen voortgangsgesprekken gehouden, vanwege drukte.
