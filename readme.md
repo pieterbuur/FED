@@ -39,7 +39,7 @@ Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel
 
 -screenshot(s) van hoe ver je bent-
 
-![alt text](images/screenshot_headdd.jpeg "Screenshot head")
+![alt text](images/screenshot_headdd.jpeg "Screenshot head"{width=40px})
 ![alt text](images/screenshot_mainnn.jpeg "Screenshot main")
 ![alt text](images/screenshot_mainnn_deel2.jpeg "Screenshot main2")
 ![alt text](images/screenshot_footerrr.jpeg "Screenshot footer")
