@@ -36,10 +36,13 @@ figure {
 body {
     
     font-family: Capitolium;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-right: 0;
+    margin-left: 0;
 }
 
+hr {
+    width: 110%;
+}
 main header ul li {
     justify-content: space-between;
 }
@@ -65,10 +68,13 @@ header nav ul {
 header nav ul li a {
     color: black;
     text-decoration-line: none;
+    margin-left: 1em;
 }
 
 header section img { 
-width: 100%;
+width: 100vw;
+margin-left: 2em;
+margin-right: 1em;
 margin-top: 0.75em;
 }
 
@@ -82,12 +88,13 @@ header nav .active {
     border-bottom: 4px solid #000;
 }
 
-
 h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    width: 105%;
 }
 
 h2 {
@@ -95,19 +102,25 @@ h2 {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
+    width: 105%;
 }
 
 figcaption {
     font-size: 20px;
     width: 92vw;
+   
 }
+
 
 p {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0.5em;
     font-size: 1.5em;
-   
+}
+
+figure img {
+    margin-left: 1em;
 }
 
 footer {
@@ -117,21 +130,28 @@ footer {
     padding-bottom: 2em;
 }
 
+footer li {
+    line-height: 1.5;
+}
+
 footer a {
     text-decoration-line: none;
     color: black;
     list-style-type: none;
     list-style: none;
+    margin-left: 1em;
+    font-family: "Benton-Bold";
 }
 
 .bold {
     font-weight: bold;
     color: black;
     line-height: 2;
+    list-style-type: none;
 }
 
 .nieuws {
-    width: 92vw;
+    width: 100vw;
 }
 
 .voetbal {
@@ -149,16 +169,20 @@ figure {
 }
 
 .artikelen {
-    width: 92vw;
-    
+    width: 108vw;
 }
 
 .hoogte-img {
-    width: 92vw;
+    width: 108vw;
 }
 
 figcaption {
    margin-left: 1em;
+   font-family: "Benton-Thin";
+}
+
+hr {
+    width: 116%
 }
 
 .nieuws2 {
@@ -183,20 +207,22 @@ p {
 
 
 .martelkamer {
-    width: 92vw;
+    width: 108vw;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-main aside nav {
+aside nav {
   overflow-x: auto; 
   overflow-y: hidden;
   height: 50px;
   align-items: center;
   position: fixed;
   bottom: 0;
-  width: 94vw;
+  width: 123vw;
 }
 
-main aside nav ul  {
+aside nav ul  {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -208,7 +234,7 @@ main aside nav ul  {
     padding-top: 0.5em;
     text-decoration: none;
     border-top: 1px solid black;
-    width: 100vw;
+    width: 116vw;
     margin-left: 0;
 }
 
@@ -223,7 +249,7 @@ main aside nav ul li a {
 
 article figcaption {
     margin-left: 0;
-    width: 92vw;
+    width: 93vw;
     font-size: 24px;
 }
 
@@ -240,6 +266,9 @@ article p {
 section article {
     margin-top: 2em;
     margin-bottom: 2em;
+            width: 100vw;
+        margin-left: 1em;
+        margin-right: 1em;
 }
 
 section article p {
@@ -252,12 +281,138 @@ strong {
     font-family: "BentonSans-Bold";
 }
 
+.bold {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+    list-style-type: none;
+}
+
+.boldrechts  {
+    font-weight: bold;
+    color: black;
+    line-height: 2;
+    list-style: none;
+}
+
+.loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+  top: 20em;
+}
+
+.loader-inner {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.loader-wrapper {
+    width: 116%;
+    height: 340%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeOut {
+  
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loader-wrapper {
+    
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 600px) {
     
     body {
-        width: 100vw;
-        margin: 10px;
+        width: 115vw;
     }
+    
+    aside nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Benton-Light';
+    font-size: 18px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+    width: 140vw;
+    margin-left: 0; 
+    }
+    
+    aside nav {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 132vw;
+}
 
     figure figcaption {
         font-size: 20px;
@@ -265,6 +420,7 @@ strong {
 
     footer {
         font-size: 20px;
+        font-family: "Benton-Sans";
     }
     
     img {
@@ -282,6 +438,10 @@ strong {
         max-width: 400px;
         margin-top: 2.5em;
         margin-right: 1em;
+    }
+    
+    .nieuws hr {
+        width: 91%;
     }
     
     .netbinnen {
@@ -304,15 +464,16 @@ strong {
         justify-content: space-between;
         flex-wrap: wrap;
         list-style-type: none;
-        
+        margin-left: 1em;
     }
     
-    footer ul li {
+    footer ul li a {
         display: flex;
         justify-content: space-between;
         margin-left: 10px;
         list-style: none;
         margin-right: 10px;
+        font-family: "Benton-Thin";
     }
     
     section article h3 {
@@ -356,9 +517,20 @@ strong {
     
     .boldrechts {
         margin-right: 10px;
+        list-style-type: none;
+        list-style: none;
     }
     
+    .loader-wrapper {
+        height: 200%;
+        width: 135%;
+    }
     
-   
+    footer li a {
+        list-style: none;
+        list-style-type: none;
+    }
     
-
+    ul {
+        list-style: none;
+    }

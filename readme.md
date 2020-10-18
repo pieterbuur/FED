@@ -10,6 +10,8 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 ## Bronnenlijst
 1. -Flexbox- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 2. -Media queries- https://robinroelofsen.nl/responsive-websites-media-queries
+3. -Micro Interactie- https://www.youtube.com/watch?v=xuA83OYTE7I&ab_channel=dcode
+4. -2e video Micro Interactie- https://www.youtube.com/watch?v=s_hO8Pn3u5M&t=92s&ab_channel=ProMakerDev
 
 
 

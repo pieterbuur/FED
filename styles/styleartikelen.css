@@ -37,19 +37,20 @@ figure {
 body {
     width: 100vw;
     font-family: Capitolium;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 header {
     position: sticky;
     top: 0;
     background-color: white;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     font-family: Capitolium;
     color: black;
-    margin-bottom: 0;
-    height: 80%;
+    height: 4em;
 }
 
 header section img { 
@@ -60,9 +61,6 @@ main section article img {
   width: 60px;
 }
 
-main nav aside ul li a {
-    font-family: Benton-Light;
-}
 
 figure p {
     font-family: "BentonSans-Thin";
@@ -83,22 +81,10 @@ p {
 
 main img {
     margin-right: 1em;
+    margin-left: 1em;
     height: 80px;
     width: 80px;
    
-}
-
-footer {
-    list-style-type: none;
-    width: 100vw;
-    padding-top: 0.5em;
-    padding-bottom: 2em;
-}
-
-footer a {
-    text-decoration-line: none;
-    color: black;
-    font-size: 16px;
 }
 
 figure {
@@ -106,38 +92,6 @@ figure {
     align-items:center;
     padding: 0;
     
-}
-
-
-main aside nav {
-  overflow-x: auto; 
-  overflow-y: hidden;
-  height: 50px;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-}
-
-main aside nav ul  {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    font-family: 'Benton-Light';
-    font-size: 14px;
-    height: 100%;
-    background-color: white;
-    color: black;
-    padding-top: 0.5em;
-    text-decoration: none;
-    border-top: 1px solid black;
-}
-
-main aside nav ul li a {
-    text-decoration-line: none;
-    color: black;
-    font-size: 16px; 
-    font-family: "Benton-Light";
 }
 
 article figcaption {
@@ -148,20 +102,22 @@ article figcaption {
 
 main figure ul li  {
     list-style-type: none;
-    width: 70vw;
-    
+    width: 65vw;
+    font-size: 16px;
 }
 
 .titel {
-    font-family: BentonSans-Bold;
-    margin-bottom: 0.3em;
-    font-size: 16px;
+    font-family: BentonSans;
+    font-size: 22px;
     color: #9B9B9B;
+    padding-top: 0;
 }
 
 li {
     font-size: 18px;
     font-family: Capitolium;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 figure figcaption {
@@ -171,7 +127,6 @@ figure figcaption {
 
 figure ul {
     font-family: BentonSans-Bold;
-    margin-bottom: 0.3em;
     font-size: 16px;
     color: #9B9B9B;
 }
@@ -180,34 +135,285 @@ figure ul li {
    color: black;
 }
 
+aside nav {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+aside nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Benton-Light';
+    font-size: 16px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+    width: 100vw;
+    margin-left: 0;
+}
+
+main aside nav ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
 .bold {
     font-weight: bold;
     color: black;
+    list-style-type: none;
     line-height: 2;
 }
 
+.boldrechts {
+    font-weight: bold;
+    line-height: 2;
+}
+
+footer {
+    list-style-type: none;
+    width: 92vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer li {
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration-line: none;
+    color: black;
+    list-style-type: none;
+    list-style: none;
+    margin-left: 1em;
+    font-size: 16px;
+}
+
+.loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+  top: 5em;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeOut {
+  
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loader-wrapper {
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 600px) {
+    
     .bestgelezen {
         max-width: 710px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
-        footer {
+.loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+  top: 5em;
+}
+    
+    aside nav ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Benton-Light';
+    font-size: 16px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+    width: 100vw;
+    margin-left: 0; 
+    }
+    
+    aside nav {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 132vw;
+}
+
+footer {
         display: flex;
         font-size: 19px;
         justify-content: space-between;
         flex-wrap: wrap;
         list-style-type: none;
-        
-    }
-    
-        footer ul li {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
         list-style: none;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+.loader-inner {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 115%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeOut {
+  
+    100% {
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
-
-
+.loader-wrapper {
+    
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
