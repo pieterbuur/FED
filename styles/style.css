@@ -101,7 +101,7 @@ h1 {
     font-size: 35px;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    width: 105%;
+    width: 107%;
 }
 
 h2 {
@@ -109,7 +109,7 @@ h2 {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
-    width: 105%;
+    width: 107%;
 }
 
 figcaption {
@@ -421,6 +421,23 @@ strong {
     text-decoration-line: none;
     margin-left: 1em;
 }
+    h1 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    width: 90%;
+}
+    
+    h2 {
+    padding-top: 0.3em;
+    border-top: 5px solid #008bc3;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+    
     aside nav ul {
         display: flex;
         list-style: none;

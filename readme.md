@@ -24,12 +24,9 @@ Tot mijn verbazing is het mij aardig gelukt de feedback van vorige voortgangsges
 -screenshot(s) van je eindresultaat-
 
 ![alt text](images/screenshot_headfinal.jpeg "Screenshot head")
-![alt text](images/screenshot_mainfinal.jpeg "Screenshot main")
 ![alt text](images/screenshot_main2final.jpeg "Screenshot main2")
 ![alt text](images/screenshot_footerfinal.jpeg "Screenshot footer")
 <br>
-![alt text](images/screenshotpag2_headfinal.jpeg "Screenshot head")
-![alt text](images/screenshotpag2_mainfinal.jpeg "Screenshot main")
 ![alt text](images/screenshotpag2_main2final.jpeg "Screenshot main2")
 ![alt text](images/screenshotpag2_footerfinal.jpeg "Screenshot footer")
 
