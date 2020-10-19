@@ -204,7 +204,7 @@ footer a {
     height: 80px;
     position: relative;
     border: 4px solid #Fff;
-    animation: loader 2s infinite ease;
+    animation: loader 1s infinite ease;
     top: -20em;
 }
 
@@ -212,7 +212,7 @@ footer a {
     display: inline-block;
     width: 100%;
     background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
+    animation: loader-inner 1s infinite ease-in;
     top: 5em;
 }
 
@@ -299,7 +299,7 @@ footer a {
         height: 80px;
         position: relative;
         border: 4px solid #Fff;
-        animation: loader 2s infinite ease;
+        animation: loader 1s infinite ease;
         top: 5em;
     }
 
@@ -321,7 +321,7 @@ footer a {
         display: inline-block;
         width: 100%;
         background-color: #fff;
-        animation: loader-inner 2s infinite ease-in;
+        animation: loader-inner 1s infinite ease-in;
     }
 
     @keyframes loader {
