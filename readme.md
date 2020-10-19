@@ -37,7 +37,8 @@ Tot mijn verbazing is het mij aardig gelukt de feedback van vorige voortgangsges
 
 ### Stand van zaken
 
-Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel zou moeten. Daarnaast had ik ook nog niet alle <p> onder mijn images gestyles. Ook heb ik nog geen animatie. Met deze 3 punten in het achterhoofd ben ik verdergegaan.
+Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel zou moeten. Daarnaast had ik ook nog niet alle 'p'
+onder mijn images gestyles. Ook heb ik nog geen animatie. Met deze 3 punten in het achterhoofd ben ik verdergegaan.
 
 **Screenshot(s):**
 
@@ -80,7 +81,7 @@ Geen meeting.
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Goed begin gemaakt, al met css begonnen. Er moet nog veel gebeuren.
 
 **Screenshot(s):**
 
