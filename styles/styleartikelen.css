@@ -1,14 +1,11 @@
 @font-face {
-  font-family: "Capitolium";
-  src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
-  src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
-  src: url("../fonts/BentonSans/BentonSans Medium.otf")
+    font-family: "Capitolium";
+    src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
 }
 
 @font-face {
-  font-family: "Capitolium";
-  src: url("../fonts/Capitolium/Capitolium\ RegularRoman.otf");
-  src: url("../fonts/CapitoliumHead/CapitoliumHead 2 W03 Regular.ttf");
+    font-family: "CapitoliumHead";
+    src: url("../Fonts/CapitoliumHead/CapitoliumHead.ttf");
 }
 
 @font-face {
@@ -23,7 +20,12 @@
 
 @font-face {
     font-family: "BentonThin";
-    src: url("/fonts/")
+    src: url("/fonts/BentonSans-Thin.otf")
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("/fonts/Merriweather.ttf")
 }
 
 ul {
@@ -34,6 +36,7 @@ figure {
     padding: 0;
     margin: 0;
 }
+
 body {
     width: 100vw;
     font-family: Capitolium;
@@ -53,14 +56,13 @@ header {
     height: 4em;
 }
 
-header section img { 
-width: 100%;
+header section img {
+    width: 100%;
 }
 
 main section article img {
-  width: 60px;
+    width: 60px;
 }
-
 
 figure p {
     font-family: "BentonSans-Thin";
@@ -84,14 +86,12 @@ main img {
     margin-left: 1em;
     height: 80px;
     width: 80px;
-   
 }
 
 figure {
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 0;
-    
 }
 
 article figcaption {
@@ -100,10 +100,41 @@ article figcaption {
     font-size: 22px;
 }
 
-main figure ul li  {
+main figure ul li {
     list-style-type: none;
-    width: 65vw;
-    font-size: 16px;
+    width: 70vw;
+    font-size: 18px;
+}
+
+aside nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 123vw;
+}
+
+aside nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    height: 100%;
+    background-color: white;
+    color: #727272;
+    padding-top: 0.5em;
+    text-decoration: none;
+    border-top: 1px solid black;
+    width: 100vw;
+    margin-left: 0;
+}
+
+main aside nav ul li a {
+    text-decoration-line: none;
+    color: #727272;
 }
 
 .titel {
@@ -111,11 +142,11 @@ main figure ul li  {
     font-size: 22px;
     color: #9B9B9B;
     padding-top: 0;
+    padding-bottom: 0.5em;
 }
 
-li {
-    font-size: 18px;
-    font-family: Capitolium;
+footer li {
+    font-size: 22px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -126,43 +157,11 @@ figure figcaption {
 }
 
 figure ul {
-    font-family: BentonSans-Bold;
     font-size: 16px;
     color: #9B9B9B;
 }
 
 figure ul li {
-   color: black;
-}
-
-aside nav {
-  overflow-x: auto; 
-  overflow-y: hidden;
-  height: 50px;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-}
-
-aside nav ul  {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    font-family: 'Benton-Light';
-    font-size: 16px;
-    height: 100%;
-    background-color: white;
-    color: black;
-    padding-top: 0.5em;
-    text-decoration: none;
-    border-top: 1px solid black;
-    width: 100vw;
-    margin-left: 0;
-}
-
-main aside nav ul li a {
-    text-decoration-line: none;
     color: black;
 }
 
@@ -198,65 +197,67 @@ footer a {
     font-size: 16px;
 }
 
+
 .loader {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  position: relative;
-  border: 4px solid #Fff;
-  animation: loader 2s infinite ease;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+    top: -20em;
 }
 
 .loader-inner {
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
-  top: 5em;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+    top: 5em;
 }
 
 @keyframes loader {
-  0% {
-    transform: rotate(0deg);
-  }
-  
-  25% {
-    transform: rotate(180deg);
-  }
-  
-  50% {
-    transform: rotate(180deg);
-  }
-  
-  75% {
-    transform: rotate(360deg);
-  }
-  
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes loader-inner {
-  0% {
-    height: 0%;
-  }
-  
-  25% {
-    height: 0%;
-  }
-  
-  50% {
-    height: 100%;
-  }
-  
-  75% {
-    height: 100%;
-  }
-  
-  100% {
-    height: 0%;
-  }
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
 }
 
 .loader-wrapper {
@@ -272,7 +273,7 @@ footer a {
 }
 
 @keyframes fadeOut {
-  
+
     100% {
         opacity: 0;
         visibility: hidden;
@@ -280,55 +281,30 @@ footer a {
 }
 
 .loader-wrapper {
-    animation: fadeOut 2s;
+    animation: fadeOut 1s;
     animation-fill-mode: forwards;
 }
 
 @media (min-width: 600px) {
-    
+
     .bestgelezen {
         max-width: 710px;
         margin-left: auto;
         margin-right: auto;
     }
-    
-.loader {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  position: relative;
-  border: 4px solid #Fff;
-  animation: loader 2s infinite ease;
-  top: 5em;
-}
-    
-    aside nav ul  {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    font-family: 'Benton-Light';
-    font-size: 16px;
-    height: 100%;
-    background-color: white;
-    color: black;
-    padding-top: 0.5em;
-    text-decoration: none;
-    border-top: 1px solid black;
-    width: 100vw;
-    margin-left: 0; 
-    }
-    
-    aside nav {
-  overflow-x: auto; 
-  overflow-y: hidden;
-  height: 50px;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  width: 132vw;
-}
 
-footer {
+    .loader {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        border: 4px solid #Fff;
+        animation: loader 2s infinite ease;
+        top: 5em;
+    }
+
+
+    footer {
         display: flex;
         font-size: 19px;
         justify-content: space-between;
@@ -337,83 +313,83 @@ footer {
         list-style: none;
     }
 
-ul {
-    list-style-type: none;
-}
-
-.loader-inner {
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
-}
-
-@keyframes loader {
-  0% {
-    transform: rotate(0deg);
-  }
-  
-  25% {
-    transform: rotate(180deg);
-  }
-  
-  50% {
-    transform: rotate(180deg);
-  }
-  
-  75% {
-    transform: rotate(360deg);
-  }
-  
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loader-inner {
-  0% {
-    height: 0%;
-  }
-  
-  25% {
-    height: 0%;
-  }
-  
-  50% {
-    height: 100%;
-  }
-  
-  75% {
-    height: 100%;
-  }
-  
-  100% {
-    height: 0%;
-  }
-}
-
-.loader-wrapper {
-    width: 100%;
-    height: 115%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@keyframes fadeOut {
-  
-    100% {
-        opacity: 0;
-        visibility: hidden;
+    ul {
+        list-style-type: none;
     }
-}
 
-.loader-wrapper {
-    
-    animation: fadeOut 2s;
-    animation-fill-mode: forwards;
-}
+    .loader-inner {
+        display: inline-block;
+        width: 100%;
+        background-color: #fff;
+        animation: loader-inner 2s infinite ease-in;
+    }
+
+    @keyframes loader {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(180deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        75% {
+            transform: rotate(360deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes loader-inner {
+        0% {
+            height: 0%;
+        }
+
+        25% {
+            height: 0%;
+        }
+
+        50% {
+            height: 100%;
+        }
+
+        75% {
+            height: 100%;
+        }
+
+        100% {
+            height: 0%;
+        }
+    }
+
+    .loader-wrapper {
+        width: 100%;
+        height: 115%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes fadeOut {
+
+        100% {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    .loader-wrapper {
+
+        animation: fadeOut 1s;
+        animation-fill-mode: forwards;
+    }

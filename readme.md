@@ -27,7 +27,11 @@ Tot mijn verbazing is het mij aardig gelukt de feedback van vorige voortgangsges
 ![alt text](images/screenshot_mainfinal.jpeg "Screenshot main")
 ![alt text](images/screenshot_main2final.jpeg "Screenshot main2")
 ![alt text](images/screenshot_footerfinal.jpeg "Screenshot footer")
-
+<br>
+![alt text](images/screenshotpag2_headfinal.jpeg "Screenshot head")
+![alt text](images/screenshotpag2_mainfinal.jpeg "Screenshot main")
+![alt text](images/screenshotpag2_main2final.jpeg "Screenshot main2")
+![alt text](images/screenshotpag2_footerfinal.jpeg "Screenshot footer")
 
 ## Voortgang 3 (week 6)
 
@@ -39,7 +43,7 @@ Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel
 
 -screenshot(s) van hoe ver je bent-
 
-![alt text](images/screenshot_headdd.jpeg "Screenshot head"{width=40px})
+![alt text](images/screenshot_headdd.jpeg "Screenshot head")
 ![alt text](images/screenshot_mainnn.jpeg "Screenshot main")
 ![alt text](images/screenshot_mainnn_deel2.jpeg "Screenshot main2")
 ![alt text](images/screenshot_footerrr.jpeg "Screenshot footer")
