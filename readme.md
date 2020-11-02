@@ -58,7 +58,7 @@ We hebben deze week geen meeting gehouden.
 
 Bij dit voortgangsgesprek was ik nog niet zo ver met mijn 2e pagina. En had ik mijn 1e pagina nog niet af. Met deze 2 punten in het achterhoofd ben ik verdergegaan.
 
-**Screenshots:
+**Screenshots:**
 
 ![alt text](images/screenshot_headd.jpeg "Screenshot head 2")
 ![alt text](images/screenshot_mainn.jpeg "Screenshot main 2")
