@@ -268,8 +268,8 @@ section article {
     margin-top: 2em;
     margin-bottom: 2em;
     width: 100vw;
-    margin-left: 1em;
     margin-right: 1em;
+    margin-left: 1em;
 }
 
 section article p {
@@ -404,6 +404,9 @@ strong {
     height: 50px;
     width: 110%;
 }
+    hr {
+        width: 103%;
+    }
 
     header nav ul {
     display: flex;
@@ -601,3 +604,224 @@ strong {
     color: #727272;
     margin-bottom: 0.5em;
 }
+    
+    @media (min-width: 1060px) {
+        
+        .netbinnen {
+            margin-top: -25em;
+            max-width: 330px;
+            right: 150px;
+        }
+        
+        body {
+            width: 110vw;
+        }
+        
+        .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 420px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;        
+}
+        article {
+            margin-left: 0;
+        }
+        
+        hr { 
+        width: 124%;
+     }
+        
+        @media (min-width: 1065px) {
+            
+            body {
+            width: 110vw;
+        }
+            
+            .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 420px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;
+            }
+        }
+        
+            .netbinnen {
+            margin-top: -25.62em;
+            max-width: 330px;
+            float: right;
+        }
+        
+        .martelkamer {
+            width: 108vw;
+            margin-left: 1em;
+            margin-right: 1em;
+            height: 300px;
+}
+        }
+        
+        section article {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100vw;
+        margin-right: 1em;
+        margin-left: 1em;
+}
+    hr {
+        width: 118%;
+    }
+    
+    .loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 4px solid #Fff;
+    animation: loader 1s infinite ease;
+    top: 35em;
+}
+
+.loader-inner {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 1s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+.loader-wrapper {
+    width: 136%;
+    height: 170%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+@keyframes fadeOut {
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-wrapper {
+
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+    
+hr { 
+        width: 124%;
+     }
+    
+ @media (min-width: 1115px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            max-width: 390px;
+            float: right;
+        }
+    }
+    
+ @media (min-width: 1190px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            float: right;
+            max-width: 310px;
+        }
+     .nieuws {
+            position: absolute;
+            margin-right: 1em;
+            left: 570px;
+            top: 0;
+            margin: 20px;
+            margin-left: 2.5em;
+            width: 50vw;
+            max-width: 400px;
+            margin-top: 2.2em;
+            margin-right: 1em;
+     }
+     
+     hr { 
+        width: 124%;
+     }
+    }
+    
+ @media (min-width: 1200px) {   
+ 
+     .netbinnen {
+            margin-top: -25.62em;
+            float: right;
+        }
+     
+     hr { 
+        width: 124%;
+     }
+     
+    }
