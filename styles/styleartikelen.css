@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "BentonSans";
-    src: url("/fonts/BentonSans-Medium.otf")
+    src: url("/fonts/BentonSans-Regular.otf")
 }
 
 @font-face {
@@ -103,7 +103,7 @@ article figcaption {
 main figure ul li {
     list-style-type: none;
     width: 65vw;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 aside nav {
@@ -132,17 +132,30 @@ aside nav ul {
     margin-left: 0;
 }
 
+.active {
+    font-family: "BentonSans-Bold";
+    color: black;
+}
+
 main aside nav ul li a {
     text-decoration-line: none;
     color: #727272;
 }
 
+main aside nav ul li a:hover {
+    color: black;
+    transition: all .6s linear;
+    font-weight: bold;
+}
+
 .titel {
-    font-family: BentonSans;
-    font-size: 22px;
+    font-family: "BentonSans-regular";
+    font-size: 15px;
     color: #9B9B9B;
     padding-top: 0;
     padding-bottom: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 footer li {
@@ -166,14 +179,16 @@ figure ul li {
 }
 
 .bold {
-    font-weight: bold;
+    font-family: "BentonSans-Bold";
+    font-size: 15px;
     color: black;
     list-style-type: none;
     line-height: 2;
 }
 
 .boldrechts {
-    font-weight: bold;
+    font-family: "BentonSans-Bold";
+    font-size: 15px;
     line-height: 2;
 }
 
@@ -182,10 +197,6 @@ footer {
     width: 92vw;
     padding-top: 2em;
     padding-bottom: 2em;
-}
-
-footer li {
-    line-height: 1.5;
 }
 
 footer a {

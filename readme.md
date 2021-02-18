@@ -14,7 +14,8 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 
 
 ## Eindgesprek (week 7/8)
--
+
+Tot mijn verbazing is het mij aardig gelukt de feedback van vorige voortgangsgesprekken te verwerken in mijn eindproduct. Wel ben ik niet tevreden over wat kleine vormgevingsfoutjes. Maar toch vind ik het algemene product wel prima.
 
 **Screenshot(s):**
 
@@ -31,7 +32,9 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 ## Voortgang 3 (week 6)
 
 ### Stand van zaken
--
+
+Bij dit gesprek was ik nog niet begonnen met de media queries, wat eigenlijk wel zou moeten. Daarnaast had ik ook nog niet alle 'p'
+onder mijn images gestyles. Ook heb ik nog geen animatie. Met deze 3 punten in het achterhoofd ben ik verdergegaan.
 
 **Screenshots:**
 
@@ -42,16 +45,16 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 
 ### Agenda voor meeting
 
--
+Hebben niet met het groepje afgesproken, omdat er geen tijd voor was.
 
 ### Verslag van meeting
 
--
+We hebben deze week geen meeting gehouden.
 
 
 ## Voortgang 2 (week 5)
 
--
+Bij dit voortgangsgesprek was ik nog niet zo ver met mijn 2e pagina. En had ik mijn 1e pagina nog niet af. Met deze 2 punten in het achterhoofd ben ik verdergegaan.
 
 **Screenshots:**
 
@@ -61,18 +64,18 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 ![alt text](images/screenshot_footerr.jpeg "Screenshot footer 2")
 
 ### Agenda voor meeting
--
+Deze week hebben we geen voortgangsgesprekken gehouden, vanwege drukte.
 
 ### Verslag van meeting
--
+Geen meeting.
 
 
 ## Voortgang 1 (week 3)
--
+
 
 ### Stand van zaken
 
--
+Goed begin gemaakt, al met css begonnen. Er moet nog veel gebeuren.
 
 **Screenshots:**
 
@@ -83,18 +86,24 @@ Codepen: https://codepen.io/pieterbuur/pens/public?cursor=ZD0wJm89MSZwPTEmdj00Nz
 
 ### Agenda voor meeting
 
--
+18 september groep B2, 9.25. Vanwege drukte met het hele groepje besloten de dag van de feedbackgesprekken zelf te doen.
 
 ### Verslag van meeting
 
--
+Het feedbackgesprek ging goed, alleen er waren wel een paar punten van verbetering:
+
+- Werk je icoontjes uit door de svg te kopiëren van volkskrant.nl
+- Gebruik strong en em voor tekst
+- Gebruik figures ipv img src voor de artikelen.
+    
+Het eerste waar ik nu mee aan de slag ga is de homepage verder stylen.
 
 
 ## Intake (week 1)
 
 **Je startniveau:** -blauw-
 
-**Je focus:** -surface plane-
+**Je focus:** -responsive-
 
 **Je opdracht:** -[De website:](https://www.volkskrant.nl/)-
 
