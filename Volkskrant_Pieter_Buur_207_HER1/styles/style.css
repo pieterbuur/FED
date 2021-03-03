@@ -41,12 +41,16 @@ figure {
 body {
 
     font-family: Capitolium;
-    margin-right: 0;
+    margin-right: 0em;
     margin-left: 0;
 }
 
 hr {
-    width: 110%;
+    width: 92%;
+}
+
+.active {
+    
 }
 
 main header ul li {
@@ -58,7 +62,7 @@ header nav {
     overflow-y: hidden;
     top: 0;
     height: 50px;
-    width: 110%;
+    width: 100%;
 }
 
 header nav ul {
@@ -79,8 +83,8 @@ header nav ul li a {
 }
 
 header section img {
-    width: 100vw;
-    margin-left: 2em;
+    width: 92vw;
+    margin-left: 0.8em;
     margin-right: 1em;
     margin-top: 0.75em;
 }
@@ -100,15 +104,16 @@ h1 {
     border-top: 5px solid #008bc3;
     font-size: 3em;
     margin-bottom: 0.5em;
-    margin-left: 0.5em;
+    margin-left: 0.3em;
     margin-right: 0.5em;
 }
 
 h2 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 p {
@@ -148,9 +153,7 @@ footer a {
     list-style-type: none;
 }
 
-.nieuws {
-    width: 100vw;
-}
+
 
 figure {
     display: flex;
@@ -164,9 +167,7 @@ figure {
     align-items: center;
 }
 
-.netbinnen figure img {
-   margin-left: 10em;
-}
+
 
 .nieuws2 {
     font-family: "CapitoliumHead";
@@ -187,7 +188,7 @@ p {
 }
 
 .martelkamer {
-    width: 100%;
+    width: 90%;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -199,7 +200,7 @@ aside nav {
     align-items: center;
     position: fixed;
     bottom: 0;
-    width: 123vw;
+    width: 100vw;
 }
 
 aside nav ul {
@@ -232,9 +233,9 @@ main aside nav ul li a:hover
 }
 
 figure figcaption {
-    margin-left: 0;
+    margin-left: 1em;
     width: 93vw;
-    font-size: 24px;
+    font-size: 1.1em;
 }
 
 article p {
@@ -245,6 +246,12 @@ article p {
     font-weight: 700;
     padding-top: 0.3em;
     font-family: "BentonSans-Thin";
+}
+
+.netbinnen figure img {
+    display: flex;
+    flex-basis: auto;
+    margin-top: 3em;
 }
 
 section article {
@@ -421,7 +428,8 @@ strong {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
-    width: 100%;
+    margin-left: 1em;
+    width: 90%;
 }
     
     aside nav ul {
@@ -437,7 +445,7 @@ strong {
         margin-bottom:  -bottom: 0.5em;
         text-decoration: none;
         border-top: 1px solid grey;
-        width: 140vw;
+        width: 100vw;
         padding-left: 0;
     }
 
@@ -467,8 +475,6 @@ strong {
         top: 0;
         margin: 20px;
         margin-left: 2.5em;
-        width: 50vw;
-        max-width: 400px;
         margin-top: 2.5em;
         margin-right: 1em;
     }
@@ -477,19 +483,18 @@ strong {
         width: 91%;
     }
 
-    .netbinnen {
-        left: 0;
-        top: 100px;
-    }
+   
 
     figure figcaption {
         margin: 3px;
+        display: flex;
+    } 
+    
+    .rusland {
+        display: flex;
     }
 
-    section figure img {
-        width: 75px;
-        margin-right: 10px;
-    }
+    
 
     footer {
         display: flex;
