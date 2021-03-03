@@ -132,6 +132,11 @@ aside nav ul {
     margin-left: 0;
 }
 
+.active {
+    font-family: "BentonSans-Bold";
+    color: black;
+}
+
 main aside nav ul li a {
     text-decoration-line: none;
     color: #727272;
@@ -178,6 +183,7 @@ figure ul li {
     font-size: 15px;
     color: black;
     list-style-type: none;
+    line-height: 2;
 }
 
 .boldrechts {
