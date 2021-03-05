@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "BentonSans";
-    src: url("/fonts/BentonSans-Regular.otf")
+    src: url("/fonts/BentonSans-Medium.otf")
 }
 
 @font-face {
@@ -103,7 +103,7 @@ article figcaption {
 main figure ul li {
     list-style-type: none;
     width: 65vw;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 aside nav {
@@ -132,30 +132,17 @@ aside nav ul {
     margin-left: 0;
 }
 
-.active {
-    font-family: "BentonSans-Bold";
-    color: black;
-}
-
 main aside nav ul li a {
     text-decoration-line: none;
     color: #727272;
 }
 
-main aside nav ul li a:hover {
-    color: black;
-    transition: all .6s linear;
-    font-weight: bold;
-}
-
 .titel {
-    font-family: "BentonSans-regular";
-    font-size: 15px;
+    font-family: BentonSans;
+    font-size: 22px;
     color: #9B9B9B;
     padding-top: 0;
     padding-bottom: 0.5em;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 footer li {
@@ -178,17 +165,15 @@ figure ul li {
     color: black;
 }
 
-.active {
-    font-family: "BentonSans-Bold";
-    font-size: 15px;
+.bold {
+    font-weight: bold;
     color: black;
     list-style-type: none;
     line-height: 2;
 }
 
 .boldrechts {
-    font-family: "BentonSans-Bold";
-    font-size: 15px;
+    font-weight: bold;
     line-height: 2;
 }
 

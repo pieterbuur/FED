@@ -9,11 +9,8 @@
     <title>Volkskrant</title>
 
     <link href="styles/style.css" rel="stylesheet">
-    <script src="scripts/script.js"></script>
 
 </head>
-    
-<body>
 
 <header>
 
@@ -22,7 +19,7 @@
 
         <ul>
             <li><a href='#' class="active">Voorpagina</a></li>
-            <li><a href='#'>Nieuws Achtergrond</a></li>
+            <li><a href='#'>Nieuws</a></li>
             <li><a href='#'>Columns Opinie</a></li>
             <li><a href='#'>Uitgelicht</a></li>
             <li><a href='#'>Wetenschap</a></li>
@@ -48,7 +45,11 @@
 
 </header>
 
+<body>
+
     <img class="martelkamer" src="images/martelkamer.jpeg" alt="martelkamer">
+
+    <script src="scripts/script.js"></script>
     
     <div class="loader-wrapper">
         
@@ -121,29 +122,28 @@
 
         <section class="netbinnen">
 
-            <figure>
+            <article>
 
                 <h2>Net binnen</h2>
 
-                <img src="images/rusland.jpeg" alt="rusland">
+                <img class="hoogte-img" src="images/rusland.jpeg">
 
-            
+                <p><strong>Nieuws</strong>Buitenland</p>
 
-            
+                <figcaption>Bedelende Loekasjenko krijgt steun van Poetin tegen oprukkende Belasrussische oppositie</figcaption>
 
-            </figure>
+            </article>
 
             <hr>
 
-            <figure>
-                
-                <img src="images/voetbal.jpeg" alt="voetbal">
+            <article>
+                <img class="artikelen" src="images/voetbal.jpeg">
 
-                
+                <p><strong>Nieuws</strong>Binnenland</p>
 
-                
+                <figcaption>Je wil toch niet dat je 8-jarige zoontje rondloopt in een shirtje met EASYTOYS erop?</figcaption>
 
-            </figure>
+            </article>
 
         </section>
 
@@ -168,6 +168,8 @@
         </aside>
 
     </main>
+
+</body>
 
 <footer>
 
@@ -223,6 +225,4 @@
 
 </footer>
 
-</body>
-    
 </html>
