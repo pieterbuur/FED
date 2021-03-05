@@ -1,5 +1,5 @@
 /* CSS Document */
-    *{
+    {
     box-sizing: border-box;
 }
 
@@ -41,16 +41,12 @@ figure {
 body {
 
     font-family: Capitolium;
-    margin-right: 0em;
+    margin-right: 0;
     margin-left: 0;
 }
 
 hr {
-    width: 92%;
-}
-
-.active {
-    
+    width: 110%;
 }
 
 main header ul li {
@@ -62,14 +58,14 @@ header nav {
     overflow-y: hidden;
     top: 0;
     height: 50px;
-    width: 100%;
+    width: 110%;
 }
 
 header nav ul {
     display: flex;
     font-family: 'Merriweather';
     max-width: 350%;
-    width: 350%;
+    width: 260%;
     height: 100%;
     list-style: none;
     background-color: white;
@@ -83,10 +79,15 @@ header nav ul li a {
 }
 
 header section img {
-    width: 92vw;
-    margin-left: 0.8em;
+    width: 90%;
+    margin-left: 2em;
     margin-right: 1em;
     margin-top: 0.75em;
+}
+
+
+main section article img {
+    width: 60px;
 }
 
 header nav .active {
@@ -94,29 +95,30 @@ header nav .active {
     border-bottom: 4px solid #000;
 }
 
-.active {
-    font-family: "BentonSans-Bold";
-    color: black;
-}
-
 h1 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
-    font-size: 3em;
+    font-size: 35px;
     margin-bottom: 0.5em;
-    margin-left: 0.3em;
-    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 92%;
 }
 
 h2 {
     padding-top: 0.3em;
     border-top: 5px solid #008bc3;
-    font-size: 2em;
+    font-size: 35px;
     margin-bottom: 0.5em;
-    margin-left: 1em;
+    width: 92%;
+}
+
+figcaption {
+    font-size: 18px;
+    width: 92vw;
 }
 
 p {
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 0.5em;
     font-size: 1.5em;
@@ -128,6 +130,7 @@ figure img {
 
 footer {
     list-style-type: none;
+    width: 92vw;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -145,20 +148,22 @@ footer a {
 }
 
 .bold {
-    font-family: "BentonSans-Bold";
-    font-size: 1em;
     font-weight: bold;
     color: black;
     line-height: 2;
     list-style-type: none;
 }
 
+.nieuws {
+    width: 100vw;
+}
 
+.voetbal {
+    width: 92vw;
+}
 
-figure {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.politiek {
+    width: 92vw;
 }
 
 figure {
@@ -167,10 +172,25 @@ figure {
     align-items: center;
 }
 
+.artikelen {
+    width: 92%;
+}
 
+.hoogte-img {
+    width: 92%;
+}
+
+figcaption {
+    margin-left: 1em;
+}
+
+hr {
+    width: 92%
+}
 
 .nieuws2 {
     font-family: "CapitoliumHead";
+    width: 94vw;
     font-size: 22px;
     margin-bottom: 30px;
 }
@@ -188,7 +208,7 @@ p {
 }
 
 .martelkamer {
-    width: 90%;
+    width: 92%;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -200,7 +220,7 @@ aside nav {
     align-items: center;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 123vw;
 }
 
 aside nav ul {
@@ -215,6 +235,7 @@ aside nav ul {
     padding-top: 0.5em;
     text-decoration: none;
     border-top: 1px solid black;
+    width: 100%;
     margin-left: 0;
 }
 
@@ -225,17 +246,12 @@ article p strong {
 main aside nav ul li a {
     text-decoration-line: none;
     color: #727272;
-    transition: all .6s linear;
-}
-main aside nav ul li a:hover
- {
-    color: black;
 }
 
-figure figcaption {
-    margin-left: 1em;
+article figcaption {
+    margin-left: 0;
     width: 93vw;
-    font-size: 1.1em;
+    font-size: 21px;
 }
 
 article p {
@@ -246,12 +262,6 @@ article p {
     font-weight: 700;
     padding-top: 0.3em;
     font-family: "BentonSans-Thin";
-}
-
-.netbinnen figure img {
-    display: flex;
-    flex-basis: auto;
-    margin-top: 3em;
 }
 
 section article {
@@ -279,8 +289,8 @@ strong {
 }
 
 .boldrechts {
-    font-family: "BentonSans-Bold";
-    font-size: 15px;
+    font-weight: bold;
+    color: black;
     line-height: 2;
     list-style: none;
 }
@@ -428,8 +438,7 @@ strong {
     border-top: 5px solid #008bc3;
     font-size: 35px;
     margin-bottom: 0.5em;
-    margin-left: 1em;
-    width: 90%;
+    width: 100%;
 }
     
     aside nav ul {
@@ -445,7 +454,7 @@ strong {
         margin-bottom:  -bottom: 0.5em;
         text-decoration: none;
         border-top: 1px solid grey;
-        width: 100vw;
+        width: 140vw;
         padding-left: 0;
     }
 
@@ -457,6 +466,10 @@ strong {
         position: fixed;
         bottom: 0;
         width: 140vw;
+    }
+
+    figure figcaption {
+        font-size: 20px;
     }
 
     footer {
@@ -475,6 +488,8 @@ strong {
         top: 0;
         margin: 20px;
         margin-left: 2.5em;
+        width: 50vw;
+        max-width: 400px;
         margin-top: 2.5em;
         margin-right: 1em;
     }
@@ -483,18 +498,19 @@ strong {
         width: 91%;
     }
 
-   
+    .netbinnen {
+        left: 0;
+        top: 100px;
+    }
 
     figure figcaption {
         margin: 3px;
-        display: flex;
-    } 
-    
-    .rusland {
-        display: flex;
     }
 
-    
+    section figure img {
+        width: 75px;
+        margin-right: 10px;
+    }
 
     footer {
         display: flex;
@@ -648,9 +664,10 @@ strong {
         }
         
         .martelkamer {
+            width: 108vw;
             margin-left: 1em;
-            margin-right: 10em;
-            width: 100%;
+            margin-right: 1em;
+            height: 300px;
 }
         }
         
